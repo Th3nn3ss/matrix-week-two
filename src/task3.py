@@ -61,14 +61,3 @@ class Dog(Animal):
         super().__init__(name, age, breed)
         self.sleeps_when = "Night"
         self.sound = "Bark"
-
-# Example of usage.
-
-
-tim = Dog("Tim", 5, "Rotteweller")
-tim.speak()
-tim.make_sound()
-
-willi = Cat("Willi", 3, "Kitty")
-willi.speak()
-willi.make_sound()
