@@ -4,7 +4,7 @@ def get_month_decorator(func):
         if month >= 1 and month <= 12:
             return func(month)
         else:
-            raise "whoops. Invalid month"
+            raise ValueError("whoops. Invalid month")
     return inner
 
 
