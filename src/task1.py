@@ -19,12 +19,12 @@ class PrimeIterator:
 
     def __init__(self, n=0):
         self.n = n
+        self.prime = 2
 
         # Initialize the iter() method when the object is created.
         iter(self)
 
     def __iter__(self):
-        self.prime = 2
         return self
 
     def __next__(self):
