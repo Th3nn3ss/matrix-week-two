@@ -61,4 +61,4 @@ def prime_generator(n):
 
         # Using regular expression check if num is prime.
         if re.compile(r'^1?$|^(11+)\1+$').match('1' * num) is None:
-            yield prime
+            yield num
